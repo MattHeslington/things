@@ -3,4 +3,4 @@
 	let { data }: { data: PageData } = $props()
 </script>
 
-<h1>Welcome to Things</h1>
+<h1>placeholder data</h1>
