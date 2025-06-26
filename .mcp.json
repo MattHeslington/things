@@ -1,0 +1,15 @@
+{
+	"mcpServers": {
+		"Bifrost": {
+			"command": "npx",
+			"args": ["-y", "supergateway", "--sse", "http://localhost:8008/sse"],
+			"disabled": false,
+			"autoApprove": [],
+			"timeout": 600
+		},
+		"sequentialthinking": {
+			"command": "npx",
+			"args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+		}
+	}
+}
