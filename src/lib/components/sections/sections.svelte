@@ -7,7 +7,7 @@
 
 <section>
 	{#if $selectedProject}
-		<h3 class="text-md font-medium mb-2">{$selectedProject.name} Sections</h3>
+		<h3 class="text-md mb-2">{$selectedProject.name} Sections</h3>
 	{/if}
 	<Dialog.Root>
 		<Dialog.Trigger>Add Section</Dialog.Trigger>
@@ -22,7 +22,7 @@
 							<button type="submit">Add Section</button>
 						</form>
 					{:else}
-						<p class="text-gray-500">Please select a project first</p>
+						<p class="text-muted-foreground">Please select a project first</p>
 					{/if}
 				</Dialog.Description>
 			</Dialog.Header>

@@ -31,6 +31,7 @@
 		"clsx": "^2.1.1",
 		"drizzle-kit": "^0.30.2",
 		"mode-watcher": "^1.0.8",
+		"paneforge": "^1.0.0",
 		"prettier": "^3.6.1",
 		"prettier-plugin-svelte": "^3.4.0",
 		"prettier-plugin-tailwindcss": "^0.6.13",
